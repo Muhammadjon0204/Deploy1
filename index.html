@@ -1,14 +1,476 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+
+
+    <div class="flex items-center justify-between px-[50px] py-[30px] max-[550px]:flex-col">
+        <div class="max-[550px]:flex max-[550px]:items-center max-[550px]:justify-between">
+        <p class="text-[25px] font-[800]">Physionic</p>
+        <div class="hidden max-[550px]:block max-[550px]:flex max-[550px]:gap-[10px]">
+            <img src="./icn search .icn-xs.png" alt="">
+            <img src="./icn shopping-cart .icn-xs.png" alt="">
+            <img src="./icn menu .icn-xs.png" alt="">
+        </div>
+    </div>
+
+        <div class="flex gap-[30px] items-center max-[550px]:flex-col">
+            <p
+                class="text-[20px] hover:cursor-pointer font-[600] hover:border-b-[3px] hover:-mb-[3px] hover:text-[#23A6Fa] hover:text-shadow-[0px_0px_6px_#23A6F0]">
+                Home</p>
+            <p
+                class="text-[20px] hover:cursor-pointer font-[600] hover:border-b-[3px] hover:-mb-[3px] hover:text-[#23A6Fa] hover:text-shadow-[0px_0px_6px_#23A6F0]">
+                Product</p>
+            <p
+                class="text-[20px] hover:cursor-pointer font-[600] hover:border-b-[3px] hover:-mb-[3px] hover:text-[#23A6Fa] hover:text-shadow-[0px_0px_6px_#23A6F0]">
+                Pricing</p>
+            <p
+                class="text-[20px] hover:cursor-pointer font-[600] hover:border-b-[3px] hover:-mb-[3px] hover:text-[#23A6Fa] hover:text-shadow-[0px_0px_6px_#23A6F0]">
+                Contact</p>
+        </div>
+        <button
+            class="text-[white] max-[550px]:hidden text-[18px] hover:cursor-pointer font-[700] bg-[#23A6F0] py-[10px] px-[20px] rounded-[10px] hover:shadow-[0px_0px_20px_#23A6F0] hover:text-[#23A6F0] hover:bg-[white]">
+            Get Quote Now -></button>
+    </div>
+
+
+    <div
+        class="bg-[url(./background1.png)] w-[100%] bg-cover bg-no-repeat flex items-center justify-center gap-[15%] mb-[30px] py-[50px] max-[550px]:flex-col">
+
+        <div class="text-[white] w-[29%] max-[550px]:w-[90%] max-[550px]:mb-[50px]">
+            <h1 class="text-[60px] font-[700]">Meet the Best Hospital</h1>
+            <p class="text-[25px] font-[500] mt-[10px] mb-[30px]">We know how large objects will act, but things on a
+                small scale.</p>
+            <div class="flex gap-[50px]">
+                <button
+                    class="text-[22px] font-[600] bg-[#23A6F0] border-[2px] border-[#23A6F0]  px-[20px] py-[10px] rounded-[30px] hover:bg-[transparent] hover:brightness-[1.5] hover:text-[#23A6F0] hover:shadow-[0px_0px_20px_#23A6F0] hover:cursor-pointer hover:scale-[1.1] hover:duration-[0.4s] duration-[0.4s]">Get
+                    Quote Now</button>
+                <button
+                    class="text-[22px] font-[600] bg-[transparent] border-[2px] px-[20px] py-[10px] rounded-[30px] hover:cursor-pointer hover:scale-[1.1] hover:shadow-[0px_0px_20px_white] hover:brightness-[1.5] hover:duration-[0.4s] duration-[0.4s]">Learn
+                    More</button>
+            </div>
+        </div>
+
+
+        <div class="bg-[white] w-[30%] py-[15px] px-[30px] pb-[30px] max-[550px]:w-[90%]">
+
+            <h1 class="font-[700] text-[40px] mb-[20px]">Book Appointment</h1>
+            <div>
+                <label for="Fname" class="text-[22px] font-[600]">Name*</label>
+                <input type="text" placeholder="Full Name * "
+                    class="block bg-[#F9F9F9] border-[2px] border-[lightgray] py-[10px] px-[20px] text-[20px] font-[500] text-[grey] outline-none mt-[10px] mb-[30px] w-[100%]"
+                    name="Fname">
+            </div>
+
+            <div>
+                <label for="Ead" class="text-[22px] font-[600]">Email Adress*</label>
+                <input type="text" placeholder="Full Name * "
+                    class="block bg-[#F9F9F9] border-[2px] border-[lightgray] py-[10px] px-[20px] text-[20px] font-[500] text-[grey] outline-none mt-[10px] mb-[30px] w-[100%]"
+                    name="Ead">
+            </div>
+
+            <div>
+                <label for="firsts" class="text-[22px] font-[600]">Departement *</label>
+                <select name="firsts" id=""
+                    class="bg-[#F9F9F9] border-[2px] border-[lightgrey] text-[20px] outline-none py-[10px] px-[20px] block mt-[10px] mb-[30px] w-[100%]">
+                    <option value="" class="text-[lightgrey]">Please Select</option>
+                    <option value="">11</option>
+                    <option value="">11</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="firsts" class="text-[22px] font-[600]">Time *</label>
+                <select name="firsts" id=""
+                    class="bg-[#F9F9F9] border-[2px] border-[lightgrey] text-[20px] outline-none py-[10px] px-[20px] block mt-[10px] mb-[30px] w-[100%]">
+                    <option value="" class="text-[lightgrey]">4:00 Available</option>
+                    <option value="">11</option>
+                    <option value="">11</option>
+                </select>
+            </div>
+
+            <button
+                class="text-[22px] font-[700] text-[white] bg-[#23A6F0] w-[100%] hover:bg-[white] hover:cursor-pointer hover:shadow-[0px_0px_20px_#23A6F0] hover:text-[#23A6F0] hover:brightness-[1.2] py-[10px] px-[20px]">Book
+                Appointment</button>
+
+        </div>
+
+
+    </div>
+
+
+    <div>
+
+        <div class="text-center w-[40%] m-auto mt-[100px] mb-[50px] max-[550px]:w-[90%]">
+            <h1 class="text-[50px] font-[700]">Leading Medicine</h1>
+            <p class="font-[500] text-[grey]">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
+        </div>
+
+        <div class="flex justify-center gap-[50px] mb-[50px] max-[550px]:flex-wrap">
+
+           <div class="w-[20%] border-[1px] border-[lightgrey] shadow-[0px_0px_20px_grey] pb-[20px] max-[550px]:w-[90%]">
+                <div class="flex items-center bg-[#8EC2F2] text-white text-[20px] font-[600] justify-between py-[15px] px-[30px]">
+                    <img src="./icn-circle circle-md.png" alt="">
+                    <p>Emergency Case</p>
+                </div>
+                 <div class="px-[20px]">
+                    <p class="text-[20px] mt-[15px] text-[grey]">-  The best products start with Figma</p>
+                    <p class="text-[20px] mt-[15px] text-[grey]">- Design with real data</p>
+                    <p class="text-[20px] mt-[15px] text-[grey]">- Lightning fast prototyping</p>
+                    <p class="text-[20px] mt-[15px] text-[grey]">- Fastest way to organize</p>
+                    <p class="text-[20px] mt-[15px] text-[grey]">- Work at the speed of thought.</p>
+                    <button class="text-[#23A6F0] text-[20px] font-[600] mt-[20px] hover:cursor-pointer">Learn More</button>
+                 </div>
+           </div>
+           <div class="w-[20%] border-[1px] border-[lightgrey] shadow-[0px_0px_20px_grey] pb-[20px] max-[550px]:w-[90%]">
+                <div class="flex items-center bg-[#8EC2F2] text-white text-[20px] font-[600] justify-between py-[15px] px-[30px]">
+                    <img src="./icn-circle circle-md.png" alt="">
+                    <p>Emergency Case</p>
+                </div>
+                 <div class="px-[20px]">
+                    <p class="text-[20px] mt-[15px] text-[grey]">-  The best products start with Figma</p>
+                    <p class="text-[20px] mt-[15px] text-[grey]">- Design with real data</p>
+                    <p class="text-[20px] mt-[15px] text-[grey]">- Lightning fast prototyping</p>
+                    <p class="text-[20px] mt-[15px] text-[grey]">- Fastest way to organize</p>
+                    <p class="text-[20px] mt-[15px] text-[grey]">- Work at the speed of thought.</p>
+                    <button class="text-[#23A6F0] text-[20px] font-[600] mt-[20px] hover:cursor-pointer">Learn More</button>
+                 </div>
+           </div>
+           <div class="w-[20%] border-[1px] border-[lightgrey] shadow-[0px_0px_20px_grey] pb-[20px] max-[550px]:w-[90%]">
+                <div class="flex items-center bg-[#8EC2F2] text-white text-[20px] font-[600] justify-between py-[15px] px-[30px]">
+                    <img src="./icn-circle circle-md.png" alt="">
+                    <p>Emergency Case</p>
+                </div>
+                 <div class="px-[20px]">
+                    <p class="text-[20px] mt-[15px] text-[grey]">-  The best products start with Figma</p>
+                    <p class="text-[20px] mt-[15px] text-[grey]">- Design with real data</p>
+                    <p class="text-[20px] mt-[15px] text-[grey]">- Lightning fast prototyping</p>
+                    <p class="text-[20px] mt-[15px] text-[grey]">- Fastest way to organize</p>
+                    <p class="text-[20px] mt-[15px] text-[grey]">- Work at the speed of thought.</p>
+                    <button class="text-[#23A6F0] text-[20px] font-[600] mt-[20px] hover:cursor-pointer">Learn More</button>
+                 </div>
+           </div>
+
+
+        </div>
+
+    </div>
+
+
+<div class="bg-[#FAFAFA] py-[100px]">
+
+   <div class="text-center w-[40%] m-auto mt-[100px] mb-[50px] max-[550px]:w-[90%]">
+            <h1 class="text-[50px] font-[700]">Leading Medicine</h1>
+            <p class="font-[500] text-[grey]">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
+        </div>
+
+        <div class="flex justify-center gap-[50px] max-[550px]:flex-wrap">
+
+            <div class="w-[17%] rounded-[10px] hover:shadow-[0px_0px_20px_lightgrey] border-[2px] border-[lightgrey] p-[15px] max-[550px]:w-[90%]">
+           <div class="flex gap-[2px]">
+            <img src="./star1.png" alt="">
+            <img src="./star1.png" alt="">
+            <img src="./star1.png" alt="">
+            <img src="./star1.png" alt="">
+            <img src="./star2.png" alt="">
+           </div>
+
+           <p class="text-[grey] font-[600] my-[20px]">Slate helps you see how many 
+more days you need to work to 
+reach your financial goal.</p>
+            
+           <img src="./media circle-box xs-circle.png" alt="">
+  
+            </div>
+
+            <div class="w-[17%] rounded-[10px] hover:shadow-[0px_0px_20px_lightgrey] border-[2px] border-[lightgrey] p-[15px] max-[550px]:w-[90%]">
+           <div class="flex gap-[2px]">
+            <img src="./star1.png" alt="">
+            <img src="./star1.png" alt="">
+            <img src="./star1.png" alt="">
+            <img src="./star1.png" alt="">
+            <img src="./star2.png" alt="">
+           </div>
+
+           <p class="text-[grey] font-[600] my-[20px]">Slate helps you see how many 
+more days you need to work to 
+reach your financial goal.</p>
+            
+           <img src="./media circle-box xs-circle.png" alt="">
+  
+            </div>
+
+            <div class="w-[17%] rounded-[10px] hover:shadow-[0px_0px_20px_lightgrey] border-[2px] border-[lightgrey] p-[15px] max-[550px]:w-[90%]">
+           <div class="flex gap-[2px]">
+            <img src="./star1.png" alt="">
+            <img src="./star1.png" alt="">
+            <img src="./star1.png" alt="">
+            <img src="./star1.png" alt="">
+            <img src="./star2.png" alt="">
+           </div>
+
+           <p class="text-[grey] font-[600] my-[20px]">Slate helps you see how many 
+more days you need to work to 
+reach your financial goal.</p>
+            
+           <img src="./media circle-box xs-circle.png" alt="">
+  
+            </div>
+
+        </div>
+
 
     
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</div>
+
+
+<div class="bg-[#FAFAFA] py-[100px] max-[550px]:py-[50px]">
+    <div class="text-center w-[40%] m-auto mt-[100px] mb-[50px] max-[550px]:w-[90%]">
+            <h1 class="text-[50px] font-[700]">FAQs</h1>
+            <p class="font-[500] text-[grey]">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
+        </div>
+
+
+<div class="w-[75%] m-auto flex flex-wrap gap-[30px] justify-center ">
+
+<div class="p-[20px] bg-[white] w-[30%] max-[550px]:w-[90%]">
+    <div class="flex gap-[15px]">
+    <p class="text-[25px] font-[700] text-[#23A6F0]">></p>
+    <h2 class="text-[22px] font-[700]">the quick fox jumps over the lazy dog</h2>
+</div>
+    <p class="text-[18px] font-[500] mt-[15px]">Things on a very small scale behave like nothing </p>
+</div>
+
+<div class="p-[20px] bg-[white] w-[30%] max-[550px]:w-[90%]">
+    <div class="flex gap-[15px]">
+    <p class="text-[25px] font-[700] text-[#23A6F0]">></p>
+    <h2 class="text-[22px] font-[700]">the quick fox jumps over the lazy dog</h2>
+</div>
+    <p class="text-[18px] font-[500] mt-[15px]">Things on a very small scale behave like nothing </p>
+</div>
+
+<div class="p-[20px] bg-[white] w-[30%] max-[550px]:w-[90%]">
+    <div class="flex gap-[15px]">
+    <p class="text-[25px] font-[700] text-[#23A6F0]">></p>
+    <h2 class="text-[22px] font-[700]">the quick fox jumps over the lazy dog</h2>
+</div>
+    <p class="text-[18px] font-[500] mt-[15px]">Things on a very small scale behave like nothing </p>
+</div>
+
+<div class="p-[20px] bg-[white] w-[30%] max-[550px]:w-[90%]">
+    <div class="flex gap-[15px]">
+    <p class="text-[25px] font-[700] text-[#23A6F0]">></p>
+    <h2 class="text-[22px] font-[700]">the quick fox jumps over the lazy dog</h2>
+</div>
+    <p class="text-[18px] font-[500] mt-[15px]">Things on a very small scale behave like nothing </p>
+</div>
+
+<div class="p-[20px] bg-[white] w-[30%] max-[550px]:w-[90%]">
+    <div class="flex gap-[15px]">
+    <p class="text-[25px] font-[700] text-[#23A6F0]">></p>
+    <h2 class="text-[22px] font-[700]">the quick fox jumps over the lazy dog</h2>
+</div>
+    <p class="text-[18px] font-[500] mt-[15px]">Things on a very small scale behave like nothing </p>
+</div>
+
+<div class="p-[20px] bg-[white] w-[30%] max-[550px]:w-[90%]">
+    <div class="flex gap-[15px]">
+    <p class="text-[25px] font-[700] text-[#23A6F0]">></p>
+    <h2 class="text-[22px] font-[700]">the quick fox jumps over the lazy dog</h2>
+</div>
+    <p class="text-[18px] font-[500] mt-[15px]">Things on a very small scale behave like nothing </p>
+</div>
+
+<div class="p-[20px] bg-[white] w-[30%] max-[550px]:w-[90%]">
+    <div class="flex gap-[15px]">
+    <p class="text-[25px] font-[700] text-[#23A6F0]">></p>
+    <h2 class="text-[22px] font-[700]">the quick fox jumps over the lazy dog</h2>
+</div>
+    <p class="text-[18px] font-[500] mt-[15px]">Things on a very small scale behave like nothing </p>
+</div>
+
+<div class="p-[20px] bg-[white] w-[30%] max-[550px]:w-[90%]">
+    <div class="flex gap-[15px]">
+    <p class="text-[25px] font-[700] text-[#23A6F0]">></p>
+    <h2 class="text-[22px] font-[700]">the quick fox jumps over the lazy dog</h2>
+</div>
+    <p class="text-[18px] font-[500] mt-[15px]">Things on a very small scale behave like nothing </p>
+</div>
+
+<div class="p-[20px] bg-[white] w-[30%] max-[550px]:w-[90%]">
+    <div class="flex gap-[15px]">
+    <p class="text-[25px] font-[700] text-[#23A6F0]">></p>
+    <h2 class="text-[22px] font-[700]">the quick fox jumps over the lazy dog</h2>
+</div>
+    <p class="text-[18px] font-[500] mt-[15px]">Things on a very small scale behave like nothing </p>
+</div>
+
+
+</div>
+
+</div>
+
+<div class="bg-[#FAFAFA] py-[100px] max-[550px]:py-[50px]">
+
+      <div class="text-center w-[40%] m-auto mt-[100px] mb-[50px] max-[550px]:w-[90%]">
+            <h1 class="text-[50px] font-[700]">Pricing</h1>
+            <p class="font-[500] text-[grey]">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
+        </div>
+
+<div class="flex justify-center gap-[50px] max-[550px]:flex-wrap">
+
+<div class= "border-[2px] rounded-[20px] text-center w-[25%] py-[25px] px-[20px] border-[#23A6F0] hover:bg-[#252B42] hover:text-[white] hover:border-[#252B42] hover:scale-[1.1] hover:duration-[0.5s] duration-[0.5s] max-[550px]:w-[90%]">
+
+<h1 class="text-[60px] font-[700]">FREE</h1>
+
+<p class="text-[grey] text-[22px] font-[700]">Organize across all apps by hand</p>
+
+<div class="flex items-center gap-[10px] text-[#23A6F0] justify-center my-[15px]">
+    <p class="font-[700] text-[55px]">0</p>
+    <div>
+        <p class="font-[500]">$</p>
+        <p class="font-[500]">Per Month</p>
+    </div>
+</div>
+
+<div>
+ 
+<p class="flex font-[600] items-center gap-[15px] my-[13px]"> <img src="./icn-circle circle-xs secondary-color-1.png" alt=""> Unlimited product updates </p>
+<p class="flex font-[600] items-center gap-[15px] my-[13px]"> <img src="./icn-circle circle-xs secondary-color-1.png" alt=""> Unlimited product updates </p>
+<p class="flex font-[600] items-center gap-[15px] my-[13px]"> <img src="./icn-circle circle-xs secondary-color-1.png" alt=""> Unlimited product updates </p>
+<p class="flex font-[600] items-center gap-[15px] my-[13px]"> <img src="./icn-circle circle-xs mute.png" alt=""> 1GB  Cloud storage </p>
+<p class="flex font-[600] items-center gap-[15px] my-[13px]"> <img src="./icn-circle circle-xs mute.png" alt=""> Email and community support </p>   
+</div>
+
+<button class="font-[600] text-[white] bg-[#23A6F0] w-[100%] py-[13px] mt-[30px] rounded-[10px]">Try for Free</button>
+</div>
+
+
+<div class="border-[2px] rounded-[20px] text-center w-[25%] py-[25px] px-[20px] border-[#23A6F0] hover:bg-[#252B42] hover:text-[white] hover:border-[#252B42] hover:scale-[1.1] hover:duration-[0.5s] duration-[0.5s] max-[550px]:w-[90%]">
+
+<h1 class="text-[60px] font-[700]">STANDART</h1>
+
+<p class="text-[grey] text-[22px] font-[700]">Organize across all apps by hand</p>
+
+<div class="flex items-center gap-[10px] text-[#23A6F0] justify-center my-[15px]">
+    <p class="font-[700] text-[55px]">9.99</p>
+    <div>
+        <p class="font-[500]">$</p>
+        <p class="font-[500]">Per Month</p>
+    </div>
+</div>
+
+<div>
+ 
+<p class="flex font-[600] items-center gap-[15px] my-[13px]"> <img src="./icn-circle circle-xs secondary-color-1.png" alt=""> Unlimited product updates </p>
+<p class="flex font-[600] items-center gap-[15px] my-[13px]"> <img src="./icn-circle circle-xs secondary-color-1.png" alt=""> Unlimited product updates </p>
+<p class="flex font-[600] items-center gap-[15px] my-[13px]"> <img src="./icn-circle circle-xs secondary-color-1.png" alt=""> Unlimited product updates </p>
+<p class="flex font-[600] items-center gap-[15px] my-[13px]"> <img src="./icn-circle circle-xs mute.png" alt=""> 1GB  Cloud storage </p>
+<p class="flex font-[600] items-center gap-[15px] my-[13px]"> <img src="./icn-circle circle-xs mute.png" alt=""> Email and community support </p>   
+</div>
+
+<button class="font-[600] text-[white] bg-[#23A6F0] w-[100%] py-[13px] mt-[30px] rounded-[10px]">Try for Free</button>
+</div>
+
+
+<div class="border-[2px] rounded-[20px] text-center w-[25%] py-[25px] px-[20px] border-[#23A6F0] hover:bg-[#252B42] hover:text-[white] hover:border-[#252B42] hover:scale-[1.1] hover:duration-[0.5s] duration-[0.5s] max-[550px]:w-[90%]">
+
+<h1 class="text-[60px] font-[700]">PREMIUM</h1>
+
+<p class="text-[grey] text-[22px] font-[700]">Organize across all apps by hand</p>
+
+<div class="flex items-center gap-[10px] text-[#23A6F0] justify-center my-[15px]">
+    <p class="font-[700] text-[55px]">19.99</p>
+    <div>
+        <p class="font-[500]">$</p>
+        <p class="font-[500]">Per Month</p>
+    </div>
+</div>
+
+<div>
+ 
+<p class="flex font-[600] items-center gap-[15px] my-[13px]"> <img src="./icn-circle circle-xs secondary-color-1.png" alt=""> Unlimited product updates </p>
+<p class="flex font-[600] items-center gap-[15px] my-[13px]"> <img src="./icn-circle circle-xs secondary-color-1.png" alt=""> Unlimited product updates </p>
+<p class="flex font-[600] items-center gap-[15px] my-[13px]"> <img src="./icn-circle circle-xs secondary-color-1.png" alt=""> Unlimited product updates </p>
+<p class="flex font-[600] items-center gap-[15px] my-[13px]"> <img src="./icn-circle circle-xs mute.png" alt=""> 1GB  Cloud storage </p>
+<p class="flex font-[600] items-center gap-[15px] my-[13px]"> <img src="./icn-circle circle-xs mute.png" alt=""> Email and community support </p>   
+</div>
+
+<button class="font-[600] text-[white] bg-[#23A6F0] w-[100%] py-[13px] mt-[30px] rounded-[10px]">Try for Free</button>
+</div>
+
+
+
+
+</div>
+
+</div>
+
+
+<div  class="bg-[#252B42] flex items-center py-[50px] justify-center gap-[50px] mb-[10px] max-[550px]:flex-col">
+
+<div class="text-[white] w-[30%] max-[550px]:w-[90%]">
+    <h1 class="text-[45px] font-[700]">Get In Touch</h1>
+    <p>The gradual accumulation of information about atomic and small-scale behaviour during the first quarter of the 20th </p>
+</div>
+
+<div class="flex w-[40%] max-[550px]:w-[90%]">
+    <input type="text" placeholder="Your Email" class="bg-white w-[60%] px-[20px]">
+    <button class="text-[white] font-[600] bg-[#23A6F0] py-[10px] px-[20px]">Subscribe</button>
+</div>
+
+</div>
+
+
+<div class="flex justify-around py-[50px] max-[550px]:flex-col max-[550px]:items-center">
+
+
+<div class="w-[12%] max-[550px]:w-[90%] max-[550px]:text-center max-[550px]:my-[15px]">
+    <h2 class="text-[25px] font-[700]">Get In Touch</h2>
+    <p class="my-[15px]">the quick fox jumps over the lazy dog</p>
+    <div class="flex gap-[10px] max-[550px]:justify-center mb-[10px]">
+        <img src="./ant-design_facebook-filled.png" alt="">
+        <img src="./instagram (3).png" alt="">
+        <img src="./twitter (4).png" alt="">
+    </div>
+</div>    
+
+<div class="w-[20%] max-[550px]:w-[90%] max-[550px]:text-center max-[550px]:my-[15px]">
+    <h2 class="text-[25px] font-[600]">Company info</h2>
+    <p>About Us</p>
+    <p>Carrier</p>
+    <p>We are hiring</p>
+    <p>Blog</p>
+</div>
+
+<div class="w-[20%] max-[550px]:w-[90%] max-[550px]:text-center max-[550px]:my-[15px]">
+<h2 class="text-[25px] font-[600]">Features</h2>
+<p>Business Marketing</p>
+<p>User Analytic</p>
+<p>Live Chat</p>
+<p>Unlimited Support</p>
+
+</div>
+
+<div class="w-[20%] max-[550px]:w-[90%] max-[550px]:text-center max-[550px]:my-[15px]">
+<h2 class="text-[25px] font-[600]">Resources</h2>
+<p>IOS & Android</p>
+<p>Watch a Demo</p>
+<p>Customers</p>
+<p>API</p>
+
+</div>
+
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </body>
+
 </html>
